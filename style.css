@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+  /* background-image: url("img/train\ in\ nature.jpg"); */
+}
+
+.content {
+  width: 80rem;
+  padding-left: 8.4rem;
+}
+
+.first-grid {
+  justify-self: center;
+}
+
+.logo-img {
+  display: block;
+  justify-self: center;
+}
+
+.all-links {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.btn {
+  background-color: #213d77;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+.btn-alert {
+  background-color: #dedede;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 4px 20px;
+}
+
+.home-links {
+  display: flex;
+  gap: 1.2rem;
+  padding-left: 50px;
+  padding-top: 12px;
+}
+.home-icon {
+  align-self: center;
+  height: 40px;
+  width: 25px;
+}
+
+.train {
+  text-decoration: underline;
+  color: #fc792b;
+  font-weight: bold;
+  /* border-bottom: 2px solid currentColor; */
+}
+
+/* CONTAINER PART */
+.container {
+  background-image: url("img/train\ in\ nature.jpg");
+}
+
+/******************
+
+ SECTION
+
+*******************/
+
+.heading {
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #dedede;
+}
+
+.app-icon {
+  height: 60px;
+  width: 60px;
+  border: 2px solid #626262;
+  border-radius: 50%;
+  padding: 1.2rem 1.2rem;
+  color: #626262;
+}
+.app-icon:hover {
+  background-color: #213d77;
+  color: #fff;
+}
+
+.all-icon {
+  display: flex;
+  gap: 9rem;
+  justify-content: center;
+}
+
+.app-name {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.all-second {
+  margin-top: 3rem;
+}
+
+.first-sec {
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+  padding: 3.6rem 0;
+}
+
+/* ***********
+ section  2
+ *************/
+
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.6rem 14.6rem;
+  row-gap: 1.6rem;
+  column-gap: 1.6rem;
+}
+
+.cart {
+  width: 22.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+.cart img {
+  width: 100%;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #dedede;
+  padding: 1.2rem 0;
+}
+
+.heading-description {
+  line-height: 1;
+  padding: 1.2rem 0;
+  color: #dedede;
+}
+
+.holi {
+  text-align: center;
+  margin-top: 8.4rem;
+  font-size: 2.4rem;
+}
+
+/* .psudo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #dedede;
+  width: 12px;
+} */
+
+/* div p span {
+  color: red;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #dedede;
+  display: inline-block;
+} */
+
+/* .mdas {
+  max-resolution: 0 auto;
+} */
