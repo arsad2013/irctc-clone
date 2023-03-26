@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -83,7 +83,9 @@ body {
   font-size: 3.2rem;
   text-align: center;
   font-weight: bold;
-  color: #dedede;
+  color: #000;
+  background-color: #eee;
+  margin-bottom: 1.6rem;
 }
 
 .app-icon {
